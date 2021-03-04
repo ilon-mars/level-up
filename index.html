@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LevelUp</title>
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <script src="script/script.js" async defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <a href="#"><img class="header__logo-img" src="img/logo.png" alt="logo: product logo"></a>
+        </div>
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li class="header__list-item"><a class="header__nav-link scroll-link" href="#consist-block">Состав</a></li>
+                <li class="header__list-item"><a class="header__nav-link scroll-link" href="#reviews-block">Отзывы</a></li>
+                <li class="header__list-item"><a class="header__nav-link scroll-link" href="#order-block">Заказать</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="promo" id="promo-block">
+        <div class="container">
+            <h1 class="promo__title">LevelUp</h1>
+            <div class="promo__content">
+                <img class="promo__img" src="img/prod.png" alt="image: product image">
+                <ul class="promo__feature-list">
+                    <li class="promo__feature-item">Далеко-далеко за словесными горами, в стране гласных и согласных живут рыбные тексты.</li>
+                    <li class="promo__feature-item">Далеко-далеко, за словесными горами в стране гласных и согласных.</li>
+                    <li class="promo__feature-item">Далеко-далеко за словесными горами в стране гласных.</li>
+                </ul>
+            </div>
+            <a class="btn promo__btn btn-order scroll-link" href="#order-block">Заказать</a>
+            <video class="promo__video" loop muted autoplay>
+                <source src="/img/video.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+    <section class="consist" id="consist-block">
+        <div class="container">
+            <div class ="consist__product product">
+                <ul class="consist__list consist__list--left">
+                    <li class="consist__list-item">
+                        <img class="consist__list-img" src="img/consist.jpg" alt="image: consist image" >
+                        <p class="consist__list-item">Ингредиент #1</p>
+                    </li>
+                    <li class="consist__list-item">
+                        <img class="consist__list-img" src="img/consist.jpg" alt="image: consist image" >
+                        <p class="consist__list-item">Ингредиент #2</p>
+                    </li>
+                    <li class="consist__list-item">
+                        <img class="consist__list-img" src="img/consist.jpg" alt="image: consist image" >
+                        <p class="consist__list-item">Ингредиент #3</p>
+                    </li>
+                </ul>
+                <div class="consist__product-img">
+                    <img class="product__img" src="img/prod.png" alt="image: product image" >
+                </div>
+                <ul class="consist__list consist__list--right">
+                    <li class="consist__list-item">
+                        <img class="consist__list-img" src="img/consist.jpg" alt="image: consist image" >
+                        <p class="consist__list-item">Ингредиент #4</p>
+                    </li>
+                    <li class="consist__list-item">
+                        <img class="consist__list-img" src="img/consist.jpg" alt="image: consist image" >
+                        <p class="consist__list-item">Ингредиент #5</p>
+                    </li>
+                    <li class="consist__list-item">
+                        <img class="consist__list-img" src="img/consist.jpg" alt="image: consist image" >
+                        <p class="consist__list-item">Ингредиент #6</p>
+                    </li>
+                </ul>
+            </div>
+            <a class="btn consist__btn btn-order scroll-link" href="#order-block">Заказать</a>
+        </div>
+    </section>
+    <section class="reviews" id="reviews-block">
+        <div class="container">
+            <div class="reviews__carousel">
+                <div class="reviews__slide reviews__slide--active">
+                    <img src="img/person1.jpeg" alt="photo" class="reviews__photo">
+                    <div class="reviews__content">
+                        <div class="reviews__name">Александр</div>
+                        <div class="reviews__text-review">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Грустный всемогущая маленький моей раз.</div>
+                    </div>
+                </div>
+                <div class="reviews__slide">
+                    <img src="img/person2.jpeg" alt="photo" class="reviews__photo">
+                    <div class="reviews__content">
+                        <div class="reviews__name">Николай</div>
+                        <div class="reviews__text-review">Далеко-далеко, за словесными горами в стране гласных и согласных живут рыбные тексты. Власти, взгляд рыбного большого текста от всех живет послушавшись парадигматическая города сбить! Его, большого?</div>
+                    </div>
+                </div>
+                <div class="reviews__slide">
+                    <img src="img/person3.jpeg" alt="photo" class="reviews__photo">
+                    <div class="reviews__content">
+                        <div class="reviews__name">Алексей</div>
+                        <div class="reviews__text-review">Далеко-далеко за словесными горами в стране гласных и согласных живут, рыбные тексты. Большой текстами, дал возвращайся ручеек предложения всеми единственное имени он толку коварный рукописи страну большого букв, она, диких подпоясал повстречался имеет?</div>
+                    </div>
+                </div>
+                <div class="reviews__btns">
+                    <a class="reviews__prev-btn reviews__btn" href="#">
+                        <img src="img/arrow-left.svg" alt="icon: previous">
+                    </a>
+                    <a class="reviews__next-btn reviews__btn" href="#">
+                        <img src="img/arrow-right.svg" alt="icon: next">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="description" id="description-block">
+        <div class="container">
+            <div class="description__content">
+                <img class="description__img" src="img/doctor.png" alt="image: product photo">
+                <p class="description__text">Далеко-далеко за словесными горами в стране гласных и согласных, живут рыбные тексты. Агентство проектах продолжил осталось переписывается пустился рукописи строчка журчит, запятой до рекламных? Языкового пор запятой океана себя за первую. Ipsum которой продолжил деревни заголовок, раз инициал.</p>
+                
+            </div>
+            <ul class="description__list">
+                <li class="description__list-item">Характеристика №1</li>
+                <li class="description__list-item">Характеристика №2</li>
+                <li class="description__list-item">Характеристика №3</li>
+            </ul>
+            <a class="btn description__btn btn-order scroll-link" href="#order-block">Заказать</a>
+        </div>
+    </section>
+    <section class="order" id="order-block">
+        <div class="container">
+            <h2 class="order__product-name">LevelUp</h2>
+            <div class="order__timer">
+                <p class="order__days">Осталось всего <span class="order__days--number">32</span> <span class="order__days--left">дня</span></p>
+                <p class="order__time">
+                    <span class="order__hours">18
+                    </span>:<span class="order__minutes">42
+                    </span>:<span class="order__seconds">44</span>
+                </p>
+            </div>
+            <div class="order__content">
+                <div class="order__info">
+                    <img class="order__product-img" src="img/prod.png">
+                    <div class="order__price price">
+                        <p class="price__old">Старая цена: <span class="order__price-old">3400</span>₽</p>
+                        <p class="price__new">Новая цена: <span class="order__price-new">777</span>₽</p>
+                    </div>
+                </div>
+                <form class="order__form" action="#" method="post">
+                    <div class="order__input">
+                        <input type="text" class="order__user-name" id="user-name" placeholder="Ваше имя" required>
+                        <span class="order__tooltip">Например: Олег</span>
+                    </div>
+                    <div class="order__input">
+                        <input type="phone" class="order__user-phone" placeholder="Ваш номер телефона" required>
+                        <span class="order__tooltip">Например: 81234567890</span>
+                    </div>
+                    <button class="btn order__btn btn-order">Заказать</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
